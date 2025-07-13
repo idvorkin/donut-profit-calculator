@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Donut Shop Profit Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a single-page web application built with React that helps donut shop owners calculate their potential profit based on various costs and sales scenarios.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Interactive Sliders:** Easily adjust inputs like donut price, ingredient costs, labor, and sales volume.
+- **Real-time Summary:** Instantly see the calculated daily costs, revenue, and profit for both normal and busy days.
+- **Profit Visualization:** A dynamic line chart shows the expected daily profit at different production volumes, helping to identify the most profitable batch sizes.
+- **Break-Even Analysis:** Quickly determine the number of donuts you need to sell to cover your costs.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) (which includes npm)
 
-### `npm test`
+### Installation & Running
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  **Clone the repository (or download the code):**
+    ```bash
+    git clone <repository-url>
+    cd donut-calculator
+    ```
 
-### `npm run build`
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3.  **Start the development server:**
+    ```bash
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    This will open the app in your browser at [http://localhost:3000](http://localhost:3000).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
 
-### `npm run eject`
+This app can be easily deployed as a static site.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.  **Build the application:**
+    ```bash
+    npm run build
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.  **Deploy the `build` folder to any static hosting service, such as:**
+    - [Surge.sh](https://surge.sh/)
+    - [Netlify](https://www.netlify.com/)
+    - [Vercel](https://vercel.com/)
+    - [GitHub Pages](https://pages.github.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was deployed live at [http://carpenter.surge.sh](http://carpenter.surge.sh).
