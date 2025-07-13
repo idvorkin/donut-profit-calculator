@@ -34,7 +34,7 @@ The application code is located in the `donut-calculator` directory.
 
 The application is deployed as a static site to Surge.sh.
 
-- **Live URL:** http://carpenter.surge.sh
+- **Live URL:** https://abrupt-carpenter.surge.sh/
 - **Deployment command (from `donut-calculator` directory):**
   ```bash
   npx surge --project ./build

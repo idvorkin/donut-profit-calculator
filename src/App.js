@@ -142,6 +142,13 @@ function App() {
           </ResponsiveContainer>
         </div>
       </main>
+      <footer className="App-footer">
+        <p>
+          <a href="https://github.com/idvorkin/donut-profit-calculator" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
